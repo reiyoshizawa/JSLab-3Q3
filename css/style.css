@@ -1,0 +1,44 @@
+/* Rei Yoshizawa 12/2/2018 */
+.container{
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ttl{
+  text-align: center;
+}
+
+#puzzle {
+  width: 300px;
+  margin: 0 auto;
+  height: 300px;
+  position: relative;
+  list-style: none;
+  text-align:  center;
+  padding:  0;
+}
+#puzzle li{
+  cursor: pointer;
+  position: absolute;
+  background: #efefef;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  margin: 0em;
+}
+
+#puzzle li.colorGreen{
+  background-color: green;
+  color: #fff;
+}
+
+#puzzle li.colorRed{
+  background-color: red;
+  color: #fff;
+}
+
+.unvisible{
+  display: none;
+}
